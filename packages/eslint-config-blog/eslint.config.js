@@ -14,6 +14,6 @@ export default config(
   ts.generateConfig({
     tsconfigRootDir: import.meta.dirname,
   }),
-  sort.generateConfig(),
+  sort.generateConfigs(),
   prettier.generateConfig(),
 );
